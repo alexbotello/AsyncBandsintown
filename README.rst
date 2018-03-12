@@ -8,7 +8,7 @@ Examples
 .. code:: python
 
     request = BandsInTownRequest()
-    request.fetch(location="los angeles, ca" artists=["mastodon", "russian circles"])
+    request.fetch(location="austin, tx" artists=["mastodon", "russian circles"])
     print(request.results)
 
     [
